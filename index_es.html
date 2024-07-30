@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre las obras del poeta colombiano Ricardo Abril.">
+    <title>Ricardo Abril: El poeta de las cosas sencillas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <button onclick="redirectTo('index.html')" class="lang-button">English</button>
+        </div>
+        <div class="header-bottom">
+            <div class="logo-container">
+                <img src="nombre cursiva.png" alt="Ricardo Abril cursiva" class="logo-img" height="50px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a>
+                        <ul class="dropdown">
+                            <li><a href="#home-bio">Acerca de Ricardo Abril</a></li>
+                            <li><a href="#home-mediaGallery">Galería Multimedia</a></li>
+                            <li><a href="#home-aboutWebsite">Acerca del Sitio Web</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="childrens_poetry_es.html">Poesía Infantil</a>
+                        <ul class="dropdown">
+                            <li><a href="#poetry-about">Acerca de esta sección</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="fleeting_drops_es.html">Gotas Fugaces</a>
+                        <ul class="dropdown">
+                            <li><a href="#fleeting_drops-about">Acerca de esta sección</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="septuagenarian_writings_es.html">Septentenas</a>
+                        <ul class="dropdown">
+                            <li><a href="#septuagenarian-about">Acerca de esta sección</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <aside>
+
+            <section id="search">
+                <h2>Busqueda</h2>
+                <input type="text" id="search-bar" placeholder="palabras clave">
+                <button onclick="searchContent()">Buscar</button>
+            </section>
+            <div id="search-results"></div>
+
+            <section id="topics">
+
+                <li><a href="#home-invitation">
+                        <strong>Invitación Fraternal</strong>
+                    </a></li>
+                <li><a href="#home-bio">
+                        <strong>Acerca de Ricardo Abril</strong>
+                    </a></li>
+                <li><a href="#home-mediaGallery">
+                        <strong>Galería Multimedia</strong>
+                    </a></li>
+                <li><a href="#home-aboutWebsite">
+                        <strong>Acerca del Sitio Web</strong>
+                    </a></li>
+            </section>
+        </aside>
+
+        <main>
+            <!-- Homepage Section -->
+            <h1>Ricardo Abril, el poeta de las cosas sencillas</h1>
+            <p class="searchable" style="font-weight: bolder;">"De hoy hasta mi muerte quiero vivir para comprender y
+                ayudar a comprender, a través de la educación, el trabajo comunitario, el conocimiento físico y
+                espiritual del ser humano y el ejercicio del arte, la vida como una fiesta que vale la pena gozar y
+                compartir""</p>
+            <section id="home-invitation" style=" padding-top: 160px; margin-top: -160px;">
+                <h2>Fraternal Invitation</h2>
+                <article>
+                    <div class="single-about-img">
+                        <img src="name_music.png" alt="Ricardo Abril wordart"
+                            style="width: 30%; border-radius: 10px; background-color: orangered; padding: 10px; float: left;margin-right: 15px;">
+                    </div>
+                    <p class="searchable">En estos canales virtuales, ventanas que hoy se usa para casi todo, compartiré
+                        con ustedes, caminantes del mismo universo en el que me fue dado nacer y vivir, algunas chispas
+                        de mi conciencia. Con humana fraternidad y humana esperanza…Y con todo respeto.</p>
+                    <p class="searchable">…ratifico que solo me reclamo artesano y sembrador, a mi manera. Espero que en
+                        sus almas viajeras, algunas de tantas chispas/semilla halle surco fértil, germine y
+                        florezca…Sabemos que estamos ligados por muchos hilos de distinta índole, que más allá de todo
+                        aquello a lo que le permitimos crear la ficción de distanciamiento, estamos habitados por los
+                        mismos pálpitos, movidos por similares pasiones, interpelados por iguales misterios, asombrados
+                        por los mismos milagros que la vida reitera sin desfallecer…que no importa lo adormecidos que a
+                        veces estemos, incluso por largos periodos, siempre podemos despertar de nuevo y beber de su
+                        fuente nutricia, razones y motivos para impulsar nuestro ánimo y seguir buscando. Seguir
+                        hallando…</p>
+                    <p class="searchable">Me siento y me identifico como artesano de la palabra y sembrador, a mi
+                        manera. Espero que en sus almas viajeras, algunas de tantas chispas/semilla halle surco fértil,
+                        germine y florezca…Sabemos que estamos ligados por muchos hilos de distinta índole, que más allá
+                        de todo aquello a lo que le permitimos crear la ficción de distanciamiento, estamos habitados
+                        por los mismos pálpitos, movidos por similares pasiones, interpelados por iguales misterios,
+                        asombrados por los mismos milagros que la vida reitera sin desfallecer…que no importa lo
+                        adormecidos que a veces estemos, incluso por largos periodos, siempre podemos despertar de nuevo
+                        y beber de su fuente nutricia, razones y motivos para impulsar nuestro ánimo y seguir buscando.
+                        Seguir hallando…</p>
+
+                </article>
+            </section>
+
+            <h2>Breve Biografía Ricardo Abril</h2>
+            <section id="home-bio" style=" padding-top: 160px; margin-top: -160px;">
+
+
+                <article>
+                    <div class="single-about-img">
+                        <img src="img_bio01.jpg" alt="Foto de Ricardo Abril"
+                            style="width: 250px; border-radius: 20px; background-color: orangered; padding: 10px; float: right;margin-left: 15px;">
+                    </div>
+                    <p class="searchable">Nacido en Cali, el 1° de abril de 1956. Maestro de escuela Primaria.</p>
+
+                    <p class="searchable">Niño trabajador desde los 7 años, me solté a aprender del mundo, de la gente y
+                        de diversos y entretenidos oficios, los distintos sabores y colores de la existencia. Vivo
+                        enamorado del viento y de los sueños y del permanente despertar y florecer de la vida en cada
+                        amanecer… Y al mismo tiempo vivo contrariado, en oposición a la insensibilidad e indiferencia
+                        humana frente a la vida en todas sus manifestaciones, incluida la convivencia social; lo segundo
+                        explica los muchos textos que no corresponden a la categoría de poesía infantil y que aquí
+                        también se comparten.</p>
+
+                    <p class="searchable">Afortunadamente jamás pude desprenderme de la curiosidad y del asombro
+                        infantil, del gusto por averiguar sobre todo, por preguntarme y preguntar, por conversar y
+                        compartir por el mero y gozoso placer de hacerlo. Al empezar a ejercer como maestro de escuela,
+                        descubrí que la única manera de tener un puente real de comunicación con los niños era recuperar
+                        mi propio niño interior. Así me lancé a una íntima exploración en la que germinaron y
+                        florecieron la mayor parte de mis poemas infantiles. La sensibilidad de los niños y niñas me dio
+                        mucho aliento para seguir esa senda. Pero la vida me dictó otras sendas, igualmente valiosas y
+                        pertinentes para enaltecerla y defenderla de la egolatría humana.</p>
+
+                    <p class="searchable">Amo la poesía. La mayoría de los poemas infantiles que he escrito fueron
+                        descubiertos entre 1.975 y 1.984, hace pues, en algunos casos casi 50 años. Ellos nacieron y han
+                        crecido y andado por muchos caminos para rendir un humilde homenaje al grandioso milagro de la
+                        vida y al inmenso don y responsabilidad de ser humano, de compartir con todos ustedes y con
+                        todos los seres humanos que ya fueron, que ahora son, y que después serán, el privilegio de
+                        sentir y de soñar. Y de poder expresarlo. </p>
+
+                    <p class="searchable">Los demás textos, corresponden a diferentes momentos y tránsitos de mi
+                        historia personal y pretenden movilizar sensibilidades y conciencia sobre temas y asuntos que la
+                        urgencia vertiginosa de la vida contemporánea deja de lado en función de la prisa y la
+                        eficiencia que se impone desde el modelo de sociedad que estamos compartiendo.</p>
+
+                    <p class="searchable">Me siento y me identifico como artesano de la palabra y sembrador, a mi
+                        manera. Espero que en sus almas viajeras, algunas de tantas chispas/semilla halle surco fértil,
+                        germine y florezca…Sabemos que estamos ligados por muchos hilos de distinta índole, que más allá
+                        de todo aquello a lo que le permitimos crear la ficción de distanciamiento, estamos habitados
+                        por los mismos pálpitos, movidos por similares pasiones, interpelados por iguales misterios,
+                        asombrados por los mismos milagros que la vida reitera sin desfallecer…que no importa lo
+                        adormecidos que a veces estemos, incluso por largos periodos, siempre podemos despertar de nuevo
+                        y beber de su fuente nutricia, razones y motivos para impulsar nuestro ánimo y seguir buscando.
+                        Seguir hallando…</p>
+                    
+
+
+                </article>
+
+
+            </section>
+            <h2>Galería Multimedia</h2>
+
+            <section id="home-mediaGallery" style=" padding-top: 160px; margin-top: -160px;">
+                <div id="home-mediaGallery-general">
+                    <article style="padding-bottom: 1200px;">
+                        <p class="searchable">Capturas en el tiempo, retratos audiovisuales de la vida y obra del poeta Ricardo
+                            Abril.</p>
+                            <div class="responsive">
+                                <div class="gallery">
+                                    <a href="img_gal01.jpg">
+                                        <img src="img_gal01.jpg" alt="Recital-Argelia_Valle-2004">
+                                    </a>
+                                    <div class="desc" class="searchable">Recital en escuela de zona rural Argelia Valle, 2004 </div>
+                                </div>
+                            </div>
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a href="img_gal02.jpg">
+                                    <img src="img_gal02.jpg" alt="Presentation-Rana_Peta-Cali-2005">
+                                </a>
+                                <div class="desc" class="searchable">Presentación poema <em>Rana Peta</em>,
+                                    Centro Cultural Comfandi - Cali, 2005</div>
+                            </div>
+                        </div>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a href="img_gal03.jpg">
+                                    <img src="img_gal03.jpg" alt="Recital-Pais_Sueños-Cali-2005">
+                                </a>
+                                <div class="desc" class="searchable">Recital de poemas y canciones- <em>País de sueños</em> - Cali, 2005</div>
+                            </div>
+                        </div>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a href="img_gal04.jpg">
+                                    <img src="img_gal04.jpg" alt="Recital_Barrio Siloé-Cali-2010">
+                                </a>
+                                <div class="desc" class="searchable">Recital en Hogar Geriátrico, Barrio Siloé, Cali, 2010 </div>
+                            </div>
+                        </div>
+
+
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a href="img_gal05.jpg">
+                                    <img src="img_gal05.jpg" alt="Recital-University_of_Valle-Cali-2024">
+                                </a>
+                                <div class="desc" class="searchable">Recital en Servicio de Salud Universidad del Valle Cali, 2024</div>
+                            </div>
+                        </div>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a href="img_gal06.jpg">
+                                    <img src="img_gal06.jpg"
+                                        alt="The_Tree_and_the_Flower-University_of_Valle-Cali-2024">
+                                </a>
+                                <div class="desc" class="searchable">Representación de <em>El Árbol y la flor</em> por parte del público en Recital UNIVALLE. Cali, 2024</div>
+                            </div>
+                        </div>
+
+                       
+
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a href="VID-20240718-WA0004.mp4">
+                                    <video controls>
+                                        <source src="VID-20240718-WA0004.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </a>
+                                <div class="desc" class="searchable">Interpretación del poema: <em>"Si..."</em>, Ricardo
+                                    Abril, escrito en 1993</div>
+                            </div>
+                        </div>
+
+                        <div class="responsive">
+                            <div class="gallery">
+                                <a href="Audio02-AFRADECER.mp4">
+                                    <video controls>
+                                        <source src="Audio02-AFRADECER.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </a>
+                                <div class="desc" class="searchable">Canción: <em>"Agradecer"</em>, Ricardo Abril, escrito en 1993</div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            <hr>
+            <section id="home-aboutWebsite" style=" padding-top: 160px; margin-top: -160px;">
+                <div id="home-aboutWebsite-general">
+                    <h2>About the Website</h2>
+                    <article>
+                        <p class="searchable"><strong>Misión:</strong> Ser ventana espejo que ofrezca sendas de observación, contemplación y reflexión hacia adentro de la conciencia y hacia afuera en la coherencia de actitudes y acciones.</p>
+                        <p class="searchable"><strong>Visión:</strong> Mantener en el tiempo el vigor y la calidez humana de la interpelación y la provocación respetuosa.</p>
+                        <p class="searchable">Todo deseo de comunicación personal debe dirigirse a la dirección electrónica aruiz1566@gmail.com , poniendo como asunto “Para Ricardo Abril”, establecido este puente podrán llegar a compartirse otros canales.</p>
+                    </article>
+                </div>
+                <div id="poetry-about" style=" padding-top: 160px; margin-top: -160px;">
+                    <h3 id="">Poesía Infantil</h3>
+                    <article>
+                        <p class="searchable">Textos sencillos, con  riqueza poética en el lenguaje, que han deambulado varios años por aulas, hogares, eventos familiares, sociales, culturales, comunitarios, y que quieren llegar a más corazones amantes del arte y de la vida. Recrean de manera combinada temas y situaciones cotidianas con propuestas desde la fantasía y  con profundo respeto a la sensibilidad infantil, provocadores, recitables y representables. Reivindican el vuelo de la fantasía, la sensibilidad y la creatividad del alma infantil y de todos los corazones sensibles.</p>
+
+                        <h4>Lista de Poemas</h4>
+                        <ul style="font-size: 1.25rem;">
+                            <li>Pajaro Madrugador</li>
+                            <li>Luna Dormilona</li>
+                            <li>Estrell y Río</li>
+                            <li>Caracolito</li>
+                            <li>Cienpiés</li>
+                            <li>La Palabra</li>
+                        </ul>
+                    </article>
+                </div>
+                <div id="fleeting_drops-about" style=" padding-top: 160px; margin-top: -160px;">
+                    <h3>Gotas Fugaces</h3>
+                    <article>
+                        <p class="searchable">Proyecto espontáneo de textos breves, sin predeterminación alguna de temas, empezado y compartido desde mitad del año de la pandemia, julio 2020 hasta octubre 2021. Sus contenidos expresan sentimientos, pensamientos, anécdotas, reflexiones o creaciones del autor, actuales, o de algún momento de su vida. El autor respeta todas y cada una de las convicciones que cada quien porte como motores de su propia conciencia.</p>
+                        <h4>Lista de Gotas Fugaces</h4>
+                        <ul>
+                            <li> Sordos, ciegos y mudos</li>
+                            <li> Noche paridora de sueños</li>
+                            <li> Somos semillas</li>
+                            <li> La vida mi gran amor</li>
+                            <li> Velos y desvelos</li>
+                        </ul>
+
+                    </article>
+                </div>
+
+                <div id="septuagenarian-about" style=" padding-top: 160px; margin-top: -160px;">
+                    <h3>Septentenas</h3>
+                    <article>
+                        <p class="searchable">Porque el autor ya está rizando los 70 años y porque sentipensar siempre valdrá la pena, en textos de 70 palabras denominados Septentenas, se proponen reflexiones cuya intención es movilizar la sensibilidad, la disposición a la contemplación, el sentido crítico saludable en relación con los aconteceres y los quehaceres humanos individuales y sociales. Proyecto iniciado en noviembre de 2021 y aún en ejercicio de producción y difusión; a julio del 2024 se han escrito y difundido 115 piezas.</p>
+                        <h4>Lista de Septentenas</h4>
+                        <ul>
+                            <li> Septentena # 6 </li>
+                            <li> Septentena # 10 </li>
+                            <li> Septentena # 13 </li>
+                            <li> Septentena # 15 </li>
+                            <li> Septentena # 19 </li>
+                            <li> Septentena # 20 </li>
+                            <li> Septentena # 24 </li>
+                            <li> Septentena # 25 </li>
+                            <li> Septentena # 27 </li>
+                            <li> Septentena # 29 </li>
+                            <li> Septentena # 30 </li>
+                            <li> Septentena # 31 </li>
+                            <li> Septentena # 38 </li>
+                            <li> Septentena # 39 </li>
+                            <li> Septentena # 43 </li>
+                            <li> Septentena # 47 </li>
+                            <li> Septentena # 48 </li>
+                            <li> Septentena # 49 </li>
+                        </ul>
+
+
+
+
+                    </article>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+    <footer>
+
+        <p class="searchable">&copy; 2024 Ricardo Abril y su obra literaria. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
